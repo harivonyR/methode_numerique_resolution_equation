@@ -16,7 +16,6 @@ int main() {
     double root_bisec = bisection_method(a, b, tol, max_iter);
     printf("Solution x = %lf\n\n", root_bisec);
 
-
     printf("2) La methode de Newton :\n");
     double x0 = 0.5;         // point de depart pour la methode de Newton
     double root_newton = newton_method(x0, tol, max_iter);
